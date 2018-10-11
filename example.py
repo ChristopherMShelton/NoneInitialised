@@ -64,6 +64,7 @@ def get_person(id):
   session.commit()
   return json.dumps(the_person.to_dict())
   #return jsonify(the_person)
+  #comment
   
 def execute_sql(sql_string=None, database_uri='postgres://postgres:secret@localhost:5432'):
     engine = create_engine(database_uri)
