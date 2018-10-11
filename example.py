@@ -65,7 +65,7 @@ def get_person(id):
   return json.dumps(the_person.to_dict())
   #return jsonify(the_person)
   #comment
-  #girls are better than boys
+  #chickens are better than dinosaurs
   
 def execute_sql(sql_string=None, database_uri='postgres://postgres:secret@localhost:5432'):
     engine = create_engine(database_uri)
